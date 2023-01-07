@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --primary-bg-colour: #2874f0;
+    --white-colour:#fff;
+    --text-black-colour: #212121;
+}
+
+body{
+    background-color: #f1f3f6;
+}
+
+/* .section-2,.section-3,.section-4,.section-5A,.section-5{
+    margin-left: 7px;
+    margin-right: 7px;
+} */
+
+/* .section-3{
+    margin-left: 7px;
+    margin-right: 7px;
+} */
+
+
+
+.section-2-cont{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/ad409035f30365c3.jpg?q=50');
+    margin-top: 16px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-3-cont{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/2848/246/image/d56a3ed6d200038a.jpg?q=50');
+    height: 122px;
+    margin-top: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-4-cont{
+    height: 362px;
+    background-color: var(--white-colour);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.offer-left-slide{
+    display: flex;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90');
+    background-position: 0 bottom;
+    width: 230px;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.offer-left-slide .offer-left-slide-view{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: flex-end;
+    padding: 28px 10px 124px;
+}
+
+.offer-left-slide .offer-left-slide-view h2{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.38;
+    word-break: break-word;
+}
+
+.offer-left-slide .offer-left-slide-view button{
+    margin-top: 24px;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 14px;
+    color: var(--white-colour);
+    background-color: var(--primary-bg-colour);
+    box-shadow:  0 2px 4px 0 rgba(0,0,0,.2);
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100px;
+    font-size: 13px;
+    position: relative;
+    left: 50px;
+}
+
+.section-4-list{
+    display: flex;
+    height: 100%;
+    width: calc(100% - 230px);
+    overflow-x: scroll;
+
+
+}
+
+.section-4-list .section-4-item{
+    width: 232px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-4-list .section-4-item img{
+   width: 200px;
+   height: 200px;
+   transform: 1s ease-in;
+   overflow: hidden;
+
+}
+.section-4-list .section-4-item .item-title{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.section-4-list .section-4-item .item-price{
+    font-size: 16px;
+    color: #388e3c;
+    padding-top: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.section-4-list .section-4-item .item-company{
+    opacity: .6;
+    padding-top: 7px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 14px;
+}
+
+.section-4-item:hover img{
+    transform: scale(1.05);
+    overflow: hidden;
+
+}
+
+.section-5-cont{
+    height: 362px;
+    background-color: var(--white-colour);
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8px;
+}
+
+.offer-left-slide-recent{
+    display: flex;
+    width: 230px;
+    height: 100%;
+}
+
+.offer-left-slide-recent .offer-left-slide-view-recent{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: flex-end;
+    padding: 28px 10px 124px;
+}
+
+.offer-left-slide-recent .offer-left-slide-view-recent h2{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.38;
+    word-break: break-word;
+}
+
+.offer-left-slide-recent .offer-left-slide-view-recent button{
+    margin-top: 24px;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 14px;
+    color: var(--white-colour);
+    background-color: var(--primary-bg-colour);
+    box-shadow:  0 2px 4px 0 rgba(0,0,0,.2);
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100px;
+    font-size: 13px;
+    position: relative;
+    left: 50px;
+}
+
+.section-5-list{
+    display: flex;
+    height: 100%;
+    width: calc(100% - 230px);
+}
+
+.section-5-list .section-5-item{
+    width: 232px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-5-list .section-5-item img{
+    width: 180px;
+    height: 180px;
+    transform: 1s ease-in;
+
+ }
+
+ .section-5-list .section-5-item svg{
+    display: flex;
+    position: relative;
+    left: 73px;
+ }
+
+ .section-5-list .section-5-item .item-title-1{
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+    overflow: hidden;
+    padding-bottom: 5px;
+    line-height: 1.4;
+    margin-top: 8px;
+}
+
+.section-5-list .section-5-item .item-price-1{
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 500;
+    color: #212121;
+}
+
+.section-5-list .section-5-item .item-og-price{
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #878787;
+}
+
+.section-5-list .section-5-item .discount{
+    display: inline-block;
+    color: #388e3c;
+    font-size: 13px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.section-5-item:hover img{
+    transform: scale(1.05);
+}
+
+
+
+.section-5A .section-5A-cont{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-5A .section-5A-cont img{
+    width: 33%;
+}
