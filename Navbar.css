@@ -172,6 +172,7 @@ header .nav{
 .loading{
     height: 3px;
     background-color: red;
+    display: none;
     animation: load 0.5s ease-in 0.1s;
 }
 
@@ -190,7 +191,6 @@ header .nav{
 
     100%{
         width: 100%;
-        visibility: hidden;
     }
 
 }
